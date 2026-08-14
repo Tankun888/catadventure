@@ -1,0 +1,764 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC" at "2026-08-14T03:09:15.9911076Z"
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'en' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-14T03:09:15Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Unity Hub\6000.5.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+D:/unity/cat
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+57201
+-parentPid
+16744
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+5b2ea94b4611bf14680b4c773d733e55
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+cfbf27dc6fc6286f5e82fbcac9d1da96e4d3d9ca
+-cbmMachineId
+YmwGbWZbZWKqE+TCxR/qR+tWd6g=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/unity/cat
+D:/unity/cat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [6464]  Target information:
+
+Player connection [6464]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 1305298973 [EditorId] 1305298973 [Version] 1048832 [Id] WindowsEditor(7,J3K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.00 ms, found 6 plugins.
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path D:/unity/Unity Hub/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/cat/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:          NVIDIA
+    VRAM:            7895 MB
+    App VRAM Budget: 7127 MB
+    Driver:          32.0.15.9636
+Initialize mono
+Mono path[0] = 'D:/unity/Unity Hub/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Unity Hub/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/unity/Unity Hub/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Unity Hub/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Unity Hub/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004228 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-PC"
+[Licensing::IpcConnector] LicenseClient-PC channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC-6000.5.8" at "2026-08-14T03:09:20.3035936Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5384, path: "D:/unity/Unity Hub/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              f392e222e8d04f84b7a22ab3d473e186
+  Correlation Id:          d5dd8e2fa45dc977cf287ab7f55a5309
+  External correlation Id: 1337369630773630787
+  Machine Id:              YmwGbWZbZWKqE+TCxR/qR+tWd6g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-PC-6000.5.8" (connect: 0.00s, validation: 0.08s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC-6000.5.8-notifications" at "2026-08-14T03:09:20.4138906Z"
+[Licensing::Module] Licensing Background thread has ended after 4.42s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 5846ms
+	BeginReloadAssembly (167ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (5032ms)
+		LoadAssemblies (167ms)
+		AnalyzeDomain (4959ms)
+			TypeCache.Refresh (4958ms)
+				TypeCache.ScanAssembly (4936ms)
+	FinalizeReload (476ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968457909261-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
+Shader 'Hidden/Universal/HDRDebugView': fallback shader 'Hidden/Core/FallbackError' not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.32 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractive': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveTransparent': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Autodesk Interactive/AutodeskInteractiveMasked': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8_PBRLit': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree9_URP': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/ClusterDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Shader Graphs/Decal': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.964 seconds
+Domain Reload Profiling: 3119ms
+	BeginReloadAssembly (178ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (873ms)
+		LoadAssemblies (369ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1965ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (1158ms)
+			ProcessInitializeOnLoadMethodAttributes (456ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 204 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 11068 unused Assets / (35.9 MB). Loaded Objects now: 11830.
+Memory consumption went from 0.52 GB to 494.2 MB.
+Total: 34.997600 ms (FindLiveObjects: 1.103100 ms CreateObjectMapping: 4.756600 ms MarkObjects: 17.275200 ms  DeleteObjects: 11.857800 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.31 ms, found 6 plugins.
+Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 197 unused Assets / (20.0 MB). Loaded Objects now: 11830.
+Memory consumption went from 510.1 MB to 490.1 MB.
+Total: 20.118900 ms (FindLiveObjects: 0.524500 ms CreateObjectMapping: 1.756200 ms MarkObjects: 13.774700 ms  DeleteObjects: 4.062000 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.08 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11833.
+Memory consumption went from 509.5 MB to 489.9 MB.
+Total: 22.570600 ms (FindLiveObjects: 0.542800 ms CreateObjectMapping: 1.957600 ms MarkObjects: 15.081600 ms  DeleteObjects: 4.987200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.46 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11833.
+Memory consumption went from 509.7 MB to 490.0 MB.
+Total: 22.924000 ms (FindLiveObjects: 0.786600 ms CreateObjectMapping: 2.085800 ms MarkObjects: 15.735400 ms  DeleteObjects: 4.314900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.09 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11833.
+Memory consumption went from 509.7 MB to 490.1 MB.
+Total: 20.722300 ms (FindLiveObjects: 0.579100 ms CreateObjectMapping: 1.965600 ms MarkObjects: 13.224900 ms  DeleteObjects: 4.951300 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.13 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11833.
+Memory consumption went from 509.8 MB to 490.3 MB.
+Total: 23.795500 ms (FindLiveObjects: 0.537200 ms CreateObjectMapping: 1.944700 ms MarkObjects: 16.036900 ms  DeleteObjects: 5.274700 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 4.10 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11037 unused Assets / (33.3 MB). Loaded Objects now: 11832.
+Memory consumption went from 0.50 GB to 484.7 MB.
+Total: 34.677100 ms (FindLiveObjects: 0.989400 ms CreateObjectMapping: 4.763000 ms MarkObjects: 15.867900 ms  DeleteObjects: 13.055300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.37 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.802 seconds
+Domain Reload Profiling: 2991ms
+	BeginReloadAssembly (296ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (779ms)
+		LoadAssemblies (392ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (15ms)
+			BuildScriptInfoCaches (337ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1803ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (898ms)
+			ProcessInitializeOnLoadMethodAttributes (476ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 2.38 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11061 unused Assets / (33.5 MB). Loaded Objects now: 11837.
+Memory consumption went from 0.50 GB to 478.9 MB.
+Total: 33.798300 ms (FindLiveObjects: 1.256300 ms CreateObjectMapping: 6.145700 ms MarkObjects: 14.734700 ms  DeleteObjects: 11.660000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.47 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11837.
+Memory consumption went from 499.5 MB to 479.9 MB.
+Total: 26.465600 ms (FindLiveObjects: 0.623700 ms CreateObjectMapping: 3.180900 ms MarkObjects: 17.751100 ms  DeleteObjects: 4.908400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.38 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.64 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 3131ms
+	BeginReloadAssembly (362ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (1044ms)
+		LoadAssemblies (435ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (261ms)
+			BuildScriptInfoCaches (295ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1591ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (519ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11061 unused Assets / (32.8 MB). Loaded Objects now: 11841.
+Memory consumption went from 0.51 GB to 491.6 MB.
+Total: 33.013000 ms (FindLiveObjects: 1.104200 ms CreateObjectMapping: 5.382500 ms MarkObjects: 15.111800 ms  DeleteObjects: 11.413000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.39 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11841.
+Memory consumption went from 0.50 GB to 497.6 MB.
+Total: 23.577100 ms (FindLiveObjects: 0.584200 ms CreateObjectMapping: 2.304500 ms MarkObjects: 15.421400 ms  DeleteObjects: 5.265600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:07.6070934Z
+  Time since last request: 4652.29862179999964 seconds.
+  importAddress: GUID: dc8373d3dc358a34ea1d6bbcfda83105 - Path: Assets/SPRITES/Soldier_512x512.png - Importer: PreviewImporter
+Importing 'GUID: dc8373d3dc358a34ea1d6bbcfda83105 - Path: Assets/SPRITES/Soldier_512x512.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc8373d3dc358a34ea1d6bbcfda83105' -> (Import Result ID: '9957d5b79300457a61ab71c728379f88') in 0.100 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce650f09f9446f0b88ce4d523338ac51 DependenciesID=b53ddfa5586a2c6a8325cee69659c682 StaticDependenciesID=63252332704f5e6d51811b6237d95c40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:08.3279776Z
+  Time since last request: 0.6065367 seconds.
+  importAddress: GUID: 7ca7716bbe389bf458719cef145edc42 - Path: Assets/SOUNDS/cat jump onto mattress.mp3 - Importer: PreviewImporter
+Importing 'GUID: 7ca7716bbe389bf458719cef145edc42 - Path: Assets/SOUNDS/cat jump onto mattress.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7ca7716bbe389bf458719cef145edc42' -> (Import Result ID: 'dcb181699c9b886f150fc03792b588f2') in 0.076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b72be6ecae807a40dd0d3ef42256ec5c DependenciesID=0053c4edc7425ceefe6d745235f91e53 StaticDependenciesID=6b02573293dd1db5f79470f1d0408f5a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:08.4196113Z
+  Time since last request: 0.0000339 seconds.
+  importAddress: GUID: 18192fc936cae364a9c7e56c502ff8a7 - Path: Assets/SOUNDS/music action.mp3 - Importer: PreviewImporter
+Importing 'GUID: 18192fc936cae364a9c7e56c502ff8a7 - Path: Assets/SOUNDS/music action.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 18192fc936cae364a9c7e56c502ff8a7' -> (Import Result ID: 'd267e50f80d916e30067783b8a50d4b1') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9877b176475ecf18e43fe864af14303b DependenciesID=1fb4f3496bae3fff7c646c7b1dc2abc8 StaticDependenciesID=f501a6b08462420e8692a943af611c80 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:08.4351193Z
+  Time since last request: 0.0003637 seconds.
+  importAddress: GUID: 377a4790999c7e840b96e398ca185b83 - Path: Assets/SOUNDS/sword whoosh.mp3 - Importer: PreviewImporter
+Importing 'GUID: 377a4790999c7e840b96e398ca185b83 - Path: Assets/SOUNDS/sword whoosh.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 377a4790999c7e840b96e398ca185b83' -> (Import Result ID: 'fb26d54312302f4ed3e3213d8b5fd12e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=148c2f99771d4c8daaceb8725790c65b DependenciesID=b29c3e0e30bb2dec7d73806c43a5d254 StaticDependenciesID=6e0eb9eb5685a804dc09d937cde35167 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:08.4499728Z
+  Time since last request: 0.0004283 seconds.
+  importAddress: GUID: a06ead52ec39d334798c5ab69b025458 - Path: Assets/SOUNDS/gem.mp3 - Importer: PreviewImporter
+Importing 'GUID: a06ead52ec39d334798c5ab69b025458 - Path: Assets/SOUNDS/gem.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a06ead52ec39d334798c5ab69b025458' -> (Import Result ID: '95b1015ac9c69ab06850615e6c1b346f') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af342c01ed994aba1f03bed84a51875f DependenciesID=033c18f99b111582452b026032b9380a StaticDependenciesID=00a0ddc61cf0199e7a3a11cde67b4c70 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:08.466539Z
+  Time since last request: 0.0003623 seconds.
+  importAddress: GUID: c267e13fd5c104046b6a03f2955f3dc5 - Path: Assets/SOUNDS/footstep_2.mp3 - Importer: PreviewImporter
+Importing 'GUID: c267e13fd5c104046b6a03f2955f3dc5 - Path: Assets/SOUNDS/footstep_2.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c267e13fd5c104046b6a03f2955f3dc5' -> (Import Result ID: '08f9e58ff856b6001f6e139a5accd04d') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fca3cca9e79d305fa773c7bd2e67326 DependenciesID=52e44de228ab7b7e9d1e486445089658 StaticDependenciesID=f6847240b35439f53ad78ddac0de7740 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:17.5018286Z
+  Time since last request: 9.0174174 seconds.
+  importAddress: GUID: e0d39d0157c20ff4d909b6856d543f4e - Path: Assets/SPRITES/Other/Box_Explode_64x64.png - Importer: PreviewImporter
+Importing 'GUID: e0d39d0157c20ff4d909b6856d543f4e - Path: Assets/SPRITES/Other/Box_Explode_64x64.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e0d39d0157c20ff4d909b6856d543f4e' -> (Import Result ID: 'ef71ebaded843dcb3aa79e10fdb287d5') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3fa4b266af3b0f22b8ca0e4db56e9277 DependenciesID=1d2e0ae542e2869e4202b1365cce6e6c StaticDependenciesID=9db28fc910764d5f9a759c759701701f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:17.5674862Z
+  Time since last request: 0.0001613 seconds.
+  importAddress: GUID: 779c097bd69981a4a8ed48877c20fdc6 - Path: Assets/SPRITES/Other/Door_Open_64x48.png - Importer: PreviewImporter
+Importing 'GUID: 779c097bd69981a4a8ed48877c20fdc6 - Path: Assets/SPRITES/Other/Door_Open_64x48.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 779c097bd69981a4a8ed48877c20fdc6' -> (Import Result ID: '7bf6eb3b9a9d0110dca53405a8e794d0') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98e0d7cb51453744f338e7fe2f37a125 DependenciesID=79ad9c64b6f2eade89232e472274de04 StaticDependenciesID=ca4b8dfbe345cdf343806e705c6ee4f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:20.2934148Z
+  Time since last request: 2.7070269 seconds.
+  importAddress: GUID: 033a93854ea1b324ea581c1601754c78 - Path: Assets/SPRITES/Player/Cat_Climb_100x100.png - Importer: PreviewImporter
+Importing 'GUID: 033a93854ea1b324ea581c1601754c78 - Path: Assets/SPRITES/Player/Cat_Climb_100x100.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 033a93854ea1b324ea581c1601754c78' -> (Import Result ID: 'fef8ac939ce6c7c64465c0a9798ed2d2') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d025183ac6e9231352919b15717b5518 DependenciesID=f87cafd5600e50d760e60daf12a6ae7d StaticDependenciesID=846946182b0a72b462528ffeee7e87aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:11:20.3187182Z
+  Time since last request: 0.0003265 seconds.
+  importAddress: GUID: e9a7f3097139dff4697398bf79e0e3d6 - Path: Assets/SPRITES/Player/Cat_Jump_100x100.png - Importer: PreviewImporter
+Importing 'GUID: e9a7f3097139dff4697398bf79e0e3d6 - Path: Assets/SPRITES/Player/Cat_Jump_100x100.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e9a7f3097139dff4697398bf79e0e3d6' -> (Import Result ID: 'd668234c3ccac9ec629ce8527f5a4712') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea2f4d9da65bc40be1d6844fce124008 DependenciesID=874cc336d69f3ea3beeefdc445b7538a StaticDependenciesID=c05ac1d4984d92ef28aebf232fe6f0b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:02.8729991Z
+  Time since last request: 42.5282496 seconds.
+  importAddress: GUID: d426e83789a25f049b0c73be5caaef3e - Path: Assets/SPRITES/IconAndLogo/RootGamesWhite.png - Importer: PreviewImporter
+Importing 'GUID: d426e83789a25f049b0c73be5caaef3e - Path: Assets/SPRITES/IconAndLogo/RootGamesWhite.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d426e83789a25f049b0c73be5caaef3e' -> (Import Result ID: '4b915f9250f99d70a33535946468d9c7') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4322217b483eb8b6ffd6ce25995e8f4 DependenciesID=9a6fd3ede9dab8dbbb8877cc60919512 StaticDependenciesID=f07a72fd8d2472e0aa05d1ad1004549d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:04.4418489Z
+  Time since last request: 1.5227521 seconds.
+  importAddress: GUID: 37a0cd9639b398b49977884e229fafa0 - Path: Assets/SPRITES/HealthBar/Heart.png - Importer: PreviewImporter
+Importing 'GUID: 37a0cd9639b398b49977884e229fafa0 - Path: Assets/SPRITES/HealthBar/Heart.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 37a0cd9639b398b49977884e229fafa0' -> (Import Result ID: '32cde84f3b6a3418a8a3fd8fdcb6c6f4') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41a38bb2cb9177bf8ef392aa9728e38b DependenciesID=46814a426204760c00a62b619688fef4 StaticDependenciesID=85c7b127188cecef4944d7b74b02f37a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:04.9541499Z
+  Time since last request: 0.4953892 seconds.
+  importAddress: GUID: d4c3a2e1cd6f6e847885365a430899d8 - Path: Assets/SPRITES/ForTilemap/BackgroundTiles_16x16.png - Importer: PreviewImporter
+Importing 'GUID: d4c3a2e1cd6f6e847885365a430899d8 - Path: Assets/SPRITES/ForTilemap/BackgroundTiles_16x16.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d4c3a2e1cd6f6e847885365a430899d8' -> (Import Result ID: '3aeacff46a88902181912340811971d1') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef35f2a59e9d839d2e8ceda93e3c44a9 DependenciesID=590162de70d8442fcd67825016251f46 StaticDependenciesID=c3cb71b7d5dc3ee0519e9e59d5c6714c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:04.9799292Z
+  Time since last request: 0.0005569 seconds.
+  importAddress: GUID: 813cf95c26f3e9941adc2ccd24c255ef - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16.png - Importer: PreviewImporter
+Importing 'GUID: 813cf95c26f3e9941adc2ccd24c255ef - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 813cf95c26f3e9941adc2ccd24c255ef' -> (Import Result ID: '555d6a6ecdd26039d791ee4763268392') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1abc361bec1b857523951ec1dde6220 DependenciesID=5ff31713c3ecdbc7911e3f1f65e0bd30 StaticDependenciesID=49925db9a76316225ae2be1594545548 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:05.5619428Z
+  Time since last request: 0.5602701 seconds.
+  importAddress: GUID: be9193a844071ea46b68f5abfd2e8ff1 - Path: Assets/SPRITES/Enemy/EnemyRedDog_Idle_50x50.png - Importer: PreviewImporter
+Importing 'GUID: be9193a844071ea46b68f5abfd2e8ff1 - Path: Assets/SPRITES/Enemy/EnemyRedDog_Idle_50x50.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be9193a844071ea46b68f5abfd2e8ff1' -> (Import Result ID: 'd0e7afde9f1012ca235964086be2f0de') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37e3bbdcf88c5e739b21bb0c94ba97bd DependenciesID=c4b453520780f9fa0e375c8df40c0169 StaticDependenciesID=9507f0652e4edcdfb1ea9b37e54d52d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.5 MB). Loaded Objects now: 11936.
+Memory consumption went from 0.51 GB to 502.3 MB.
+Total: 24.639900 ms (FindLiveObjects: 0.551900 ms CreateObjectMapping: 2.042100 ms MarkObjects: 17.545300 ms  DeleteObjects: 4.499100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:12:19.9673862Z
+  Time since last request: 14.3637018 seconds.
+  importAddress: GUID: 813cf95c26f3e9941adc2ccd24c255ef - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16.png - Importer: PreviewImporter
+Importing 'GUID: 813cf95c26f3e9941adc2ccd24c255ef - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 813cf95c26f3e9941adc2ccd24c255ef' -> (Import Result ID: 'b4e64eb3ce8ef5621e569fea25f5f904') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1abc361bec1b857523951ec1dde6220 DependenciesID=6a52b3416991457d94065d0ee88efa44 StaticDependenciesID=acfd1739eb83e4d0feac84e48a31b0b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.56 ms, found 6 plugins.
+Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 194 unused Assets / (19.6 MB). Loaded Objects now: 11936.
+Memory consumption went from 0.51 GB to 502.3 MB.
+Total: 23.672700 ms (FindLiveObjects: 0.602400 ms CreateObjectMapping: 1.877500 ms MarkObjects: 15.875400 ms  DeleteObjects: 5.316100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.4316139Z
+  Time since last request: 99.44441519999999 seconds.
+  importAddress: GUID: 08fd9d4c17add8f408f20172e2fb8f4d - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_1.asset - Importer: PreviewImporter
+Importing 'GUID: 08fd9d4c17add8f408f20172e2fb8f4d - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_1.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 08fd9d4c17add8f408f20172e2fb8f4d' -> (Import Result ID: 'df1e465f9f2a66dfabb3cd4eb1cba02e') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f9cefaa9c323536cd4b64503454e93f DependenciesID=c0dbfc1d82700be3b90c0969dfd4da80 StaticDependenciesID=3f8aaa689fd7143060dc3602794d7c04 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.4913217Z
+  Time since last request: 0.0002072 seconds.
+  importAddress: GUID: da47d30bec240284e850b8d715f8b599 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_2.asset - Importer: PreviewImporter
+Importing 'GUID: da47d30bec240284e850b8d715f8b599 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_2.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da47d30bec240284e850b8d715f8b599' -> (Import Result ID: '0b653f825312fab9905b25b1c77a05d7') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59694d4f2a6f2b393cd7c6da1e4c4703 DependenciesID=21dfd72e8cf0a14f9c7baa9c7a350473 StaticDependenciesID=014f811d892b010d97c129d156d88f6c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.5239645Z
+  Time since last request: 0.0136689 seconds.
+  importAddress: GUID: 069d43405fa5e494fa28ce7d79d73ce6 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_5.asset - Importer: PreviewImporter
+Importing 'GUID: 069d43405fa5e494fa28ce7d79d73ce6 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_5.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 069d43405fa5e494fa28ce7d79d73ce6' -> (Import Result ID: 'd955cbb963f0eb82363e220e570d6d31') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e7365260cbc6f1a877264edf52cafd4 DependenciesID=fe7cb4818f37aec8dfa03d0f3fd6034a StaticDependenciesID=ec26cc6628018e80d5b19e6a1f93213b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.5371481Z
+  Time since last request: 0.0003268 seconds.
+  importAddress: GUID: 193fd2dc37be19e4791fe82e0517e9b6 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_21.asset - Importer: PreviewImporter
+Importing 'GUID: 193fd2dc37be19e4791fe82e0517e9b6 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_21.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 193fd2dc37be19e4791fe82e0517e9b6' -> (Import Result ID: '0a69f4b1fde59bc7ab0d9f1423548a94') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2abd6b2a78b7358b439e1510f51180e DependenciesID=db8d0f1ff5789cdec9b3413c3d10d705 StaticDependenciesID=d798e99de948f83a37f3efda317c5d1c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.552116Z
+  Time since last request: 0.0003527 seconds.
+  importAddress: GUID: 95ae13b5ea63b934dbaab18aaf2cab44 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_3.asset - Importer: PreviewImporter
+Importing 'GUID: 95ae13b5ea63b934dbaab18aaf2cab44 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_3.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 95ae13b5ea63b934dbaab18aaf2cab44' -> (Import Result ID: '8766f8ae11ea9cd7b955f6fd99af70bc') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a7d8a6041e8e5e3b4596bc19b953eef DependenciesID=2c48a98b0606743acc85ad34fd4df20a StaticDependenciesID=01c1328fa4261ed12db7eb8cf57aa579 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.5685012Z
+  Time since last request: 0.000191 seconds.
+  importAddress: GUID: bd397bdd26d147642a744341341acab4 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_22.asset - Importer: PreviewImporter
+Importing 'GUID: bd397bdd26d147642a744341341acab4 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_22.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bd397bdd26d147642a744341341acab4' -> (Import Result ID: '86ebec54237098fa479ee57f38451d7b') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=885701a00bcce0e7f776d0974c60784f DependenciesID=065663c0fd7014f04cbd97b45bd21356 StaticDependenciesID=9334b66cdb868b42ee0e294cb1d08c63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.5870309Z
+  Time since last request: 0.0002772 seconds.
+  importAddress: GUID: 8244e940974fb6142a7d933ee13e11c0 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_16.asset - Importer: PreviewImporter
+Importing 'GUID: 8244e940974fb6142a7d933ee13e11c0 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_16.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8244e940974fb6142a7d933ee13e11c0' -> (Import Result ID: 'c1bdfe14c8a3807ca8fec55244113594') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c74af19b010c59943e76bfb041202b3f DependenciesID=f7c6af9087d149b7006bb535f5c3d922 StaticDependenciesID=3939153bb9c47e47adb4d1c14c388315 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.604005Z
+  Time since last request: 0.0002709 seconds.
+  importAddress: GUID: 94c872207ce8b1d48ad7957b4fb8fce3 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_25.asset - Importer: PreviewImporter
+Importing 'GUID: 94c872207ce8b1d48ad7957b4fb8fce3 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_25.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 94c872207ce8b1d48ad7957b4fb8fce3' -> (Import Result ID: '591e3eec5adba9d4d8fdb51263f0b0df') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9846207ea558dc1b34220472c295373b DependenciesID=85e84c0066c089bc427863f8a927b7f6 StaticDependenciesID=0d4e8de040be755c2834cff9efd15a2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.620037Z
+  Time since last request: 0.0003068 seconds.
+  importAddress: GUID: ef90e6b9f335026459740d5a449f85ed - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_9.asset - Importer: PreviewImporter
+Importing 'GUID: ef90e6b9f335026459740d5a449f85ed - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_9.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ef90e6b9f335026459740d5a449f85ed' -> (Import Result ID: '7b6baf46422845a87800dec0a4cdd5eb') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45cabb97ada2b2e92a751eb881a357f1 DependenciesID=792f22f15f8a34cc7de0f0a6a60d74d4 StaticDependenciesID=9cb1e76c014d245cbe9ff1d25de9822a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.6391143Z
+  Time since last request: 0.0002413 seconds.
+  importAddress: GUID: 31e9509740edcd0448b96486b0e34122 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_23.asset - Importer: PreviewImporter
+Importing 'GUID: 31e9509740edcd0448b96486b0e34122 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_23.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31e9509740edcd0448b96486b0e34122' -> (Import Result ID: 'b2378c1e5a108803276f2916c08a3967') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e704283ae7566a067e71b5cd1e23aa3f DependenciesID=da449bc7ee54d5bc2749e3e101c1197a StaticDependenciesID=fee04deb76ee4fa82eafce0d367ff981 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.6558024Z
+  Time since last request: 0.0000881 seconds.
+  importAddress: GUID: bccd8d7ff2227ed4a9ba9c9596e84bb5 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_11.asset - Importer: PreviewImporter
+Importing 'GUID: bccd8d7ff2227ed4a9ba9c9596e84bb5 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_11.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bccd8d7ff2227ed4a9ba9c9596e84bb5' -> (Import Result ID: 'adcb06e3bf664c981d3838de1fa924a2') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=690d2d641c778348052c6dfd625a5fbf DependenciesID=504cebfdfce51935d558cd04057babaf StaticDependenciesID=ec42d0844c3b0d3ab32c70efc15c81d2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.6718511Z
+  Time since last request: 0.0002513 seconds.
+  importAddress: GUID: e28a5d2d58592e04092dcd8beaaf2668 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_15.asset - Importer: PreviewImporter
+Importing 'GUID: e28a5d2d58592e04092dcd8beaaf2668 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_15.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e28a5d2d58592e04092dcd8beaaf2668' -> (Import Result ID: '7f83fbed768e5f32411c48a3f2b6e56f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5e878d5d64f13b95f3ac15eae67b824 DependenciesID=25bf036f0b22646a3a2bc55db203d1c0 StaticDependenciesID=cc7091ac57992fb6df9fc29e89e36875 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.6871583Z
+  Time since last request: 0.0002121 seconds.
+  importAddress: GUID: fb4c7af7e281ead4badf34ad926e786f - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_20.asset - Importer: PreviewImporter
+Importing 'GUID: fb4c7af7e281ead4badf34ad926e786f - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_20.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fb4c7af7e281ead4badf34ad926e786f' -> (Import Result ID: '9d516d2adf3aacd1c821fbd3783cad9f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2241182b9bf0d7b0fd0d7fe1afb0c707 DependenciesID=734b5c723ca1253b7eb21ba72fd9d91f StaticDependenciesID=07c1a552f5a9ee847dbfee8bd3d43ca2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7010915Z
+  Time since last request: 0.0003114 seconds.
+  importAddress: GUID: f7eaec3cf8f45a94c94e80da82637d4d - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_4.asset - Importer: PreviewImporter
+Importing 'GUID: f7eaec3cf8f45a94c94e80da82637d4d - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_4.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f7eaec3cf8f45a94c94e80da82637d4d' -> (Import Result ID: '0d8b15012c47e8dc409861b993d2f536') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f24dd7333fd4d2a7209bc4337e86476 DependenciesID=b51403f033394c70e77f7439d982ff33 StaticDependenciesID=95f7e450b51b28154cae1a584fdcd6b6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7154893Z
+  Time since last request: 0.0003637 seconds.
+  importAddress: GUID: 008a67433ab89194388566c709fdc797 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_28.asset - Importer: PreviewImporter
+Importing 'GUID: 008a67433ab89194388566c709fdc797 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_28.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 008a67433ab89194388566c709fdc797' -> (Import Result ID: '4ba6b39523a09d0ec4fb2e2d65148097') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=381572f4f8efbf1b066a646f0120ddba DependenciesID=cd6317f0fa6f33bd63093ed2456aa13f StaticDependenciesID=2465f6094c700518e334c2e0af67a242 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7324831Z
+  Time since last request: 0.0002456 seconds.
+  importAddress: GUID: 933953744e11e7f4cb3f357aa3b43d41 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_12.asset - Importer: PreviewImporter
+Importing 'GUID: 933953744e11e7f4cb3f357aa3b43d41 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_12.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 933953744e11e7f4cb3f357aa3b43d41' -> (Import Result ID: '036b8854d4519e44eb76f92a9171e6fe') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2dc47ebb5da7dc9b1271498f7e30f09 DependenciesID=0a3935cfb194228ffae13aa2e9fca4f4 StaticDependenciesID=47b9a599298a1bab60c8fc49834c0c28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7510341Z
+  Time since last request: 0.0005775 seconds.
+  importAddress: GUID: 8cc28b879f81c12459ad5add526b7d62 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_24.asset - Importer: PreviewImporter
+Importing 'GUID: 8cc28b879f81c12459ad5add526b7d62 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_24.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8cc28b879f81c12459ad5add526b7d62' -> (Import Result ID: '800d6abeb8d4f93b567d2746ba058048') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8f08ab2dbc9ce30271d9e0b3c71499d DependenciesID=0f7e7448dac437c49a033607218ea9f6 StaticDependenciesID=eb67c1ef7af75e6d10f6748734c9b9b2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7674232Z
+  Time since last request: 0.0002275 seconds.
+  importAddress: GUID: 3d752cd90d4e36d47b0df066df619b14 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_17.asset - Importer: PreviewImporter
+Importing 'GUID: 3d752cd90d4e36d47b0df066df619b14 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_17.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3d752cd90d4e36d47b0df066df619b14' -> (Import Result ID: '315b5491d85d2e501593b7690c3fc66c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e89f911404e8416b5b53188290cca4ea DependenciesID=d81ba586877af64a3a5929341c899632 StaticDependenciesID=944a515938ff34fefdc6a61eb21544ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.7846406Z
+  Time since last request: 0.0007576 seconds.
+  importAddress: GUID: 3d2b15bf7fd53c245af4ef155e708ee1 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_26.asset - Importer: PreviewImporter
+Importing 'GUID: 3d2b15bf7fd53c245af4ef155e708ee1 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_26.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3d2b15bf7fd53c245af4ef155e708ee1' -> (Import Result ID: '9a82e4584daa76256193560f902c4786') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aa835c4486a0caf1004f66e583fc3db DependenciesID=5ea448d8e73af27feb344844651898df StaticDependenciesID=4d9c10e1735798d255d331b6eec98703 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-14T03:13:59.8020417Z
+  Time since last request: 0.0003943 seconds.
+  importAddress: GUID: d2e3d02f1787f2146aa11292ff5e6fd5 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_33.asset - Importer: PreviewImporter
+Importing 'GUID: d2e3d02f1787f2146aa11292ff5e6fd5 - Path: Assets/SPRITES/ForTilemap/PlatformTiles_16x16_33.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d2e3d02f1787f2146aa11292ff5e6fd5' -> (Import Result ID: '6e09adc1dbf7aeeb401220cd04f157f4') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9162606da887d4c514fa62cd7208bdbb DependenciesID=3d7d70910dbef462155a0a038a18fe2c StaticDependenciesID=01df3f1c1a3ab3f536d16b56c39de154 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
